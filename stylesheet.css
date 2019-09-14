@@ -93,3 +93,6 @@ a:visited {
     }
 }
 
+.current a {
+    text-decoration: none;
+}
