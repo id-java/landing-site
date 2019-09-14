@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* body {
+    background-color: #ffc107;
+} */
+
+#content {
+    width: 100%;
+    margin: 10% auto 10% auto;
+    text-align: center;
+}
+
+#name {
+    font-family: 'Share', Arial, Helvetica, sans-serif;    
+}
+
+.pre-name {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.my-name {
+    font-size: 55px;
+    font-style: italic;
+}
+
+#intro {
+    margin: 20px 0 0 0;
+    font-family: 'dosis', sans-serif;
+    font-weight: 600;
+}
+
+.intro-text {
+    font-size: 23px;
+    padding-bottom: 5px;
+}
+
+.and {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.current {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#hobbies {
+    /* font-family: 'roboto mono', monospace; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+#hobbies a {
+    font-style: italic;
+    text-decoration: none;
+}
+
+#social {
+    margin-top: 30px;
+}
+
+#social li {
+    display: inline-block;
+    padding: 10px;
+    font-family: 'roboto mono', monospace;
+    font-weight: 500;
+}
+
+a:visited {
+    color: #00EE;
+}
+
+ #name, #intro, #hobbies {
+    animation-name: main-slide;
+    animation-duration: 1s;
+}
+
+@keyframes main-slide {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
