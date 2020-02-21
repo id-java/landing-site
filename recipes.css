@@ -1,7 +1,62 @@
-#instr {
-    font-family: 'Times New Roman', Times, serif;
+#rname {
+    font-family: 'Great Vibes';
+    font-size: 3.5em;
+    margin-bottom: 0;
 }
 
 * {
-    background-color: aliceblue;
+    background-color: whitesmoke ;
+}
+
+#ingred, #instr {
+    font-family: 'Open Sans';
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.recipe {
+    text-align: center;
+}
+
+#edible {
+    font-size: 1.2em;
+    /* text-decoration: underline; */
+    /* font-family: 'Open Sans'; */
+    font-family: 'Playfair Display';
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+#instr {
+    list-style-type: none;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#instr li {
+    margin-top: 5px;
+}
+
+#note {
+    margin-top: 20px;
+    font-family: 'Noto Sans';
+    font-style: italic;
+}
+
+#ingred li {
+    margin-top: 0px;
+    padding-top: 0;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
 }
